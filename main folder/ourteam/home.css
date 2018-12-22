@@ -1,4 +1,6 @@
-
+html {
+	height: 100%;
+  }
         
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
@@ -8,6 +10,9 @@
 /* Padding below the footer and lighter body text */
 
 body {
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: 100px auto 24px;
 	color: #5a5a5a;
 	font-family: 'Lato', sans-serif;
 }
@@ -56,7 +61,13 @@ section {
 
 /* TOP HEADER
 -------------------------------------------------- */
-.footers{padding-top: 0px; background:#222; height: 1px;padding-bottom: 0px;}
+.footers{
+	grid-row-end: -1;
+	padding-top: 0px;
+	background:#222;
+	height: 1px;
+	padding-bottom: 0px;
+}
 
 .navbar.top-bar {
 	border-radius: 0;
