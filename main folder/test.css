@@ -163,8 +163,9 @@ section {
 .main-slider h2 {
 	color: #fff;
 	font-size: 54px;
+	font-weight: bold;
 	line-height: 59px;
-	padding: 0 19%;
+	padding:30% 19% 0 19%;
 	text-transform: uppercase;
 }
 .main-slider .swiper-pagination-bullet {
@@ -222,10 +223,11 @@ section {
 /* ABOUT SECTION
 -------------------------------------------------- */
 .about-sec {
-	background: url('http://grafreez.com/wp-content/temp_demos/burnout/img/para-01.jpg') no-repeat center center;
+	background: url('https://i.imgur.com/ypLLSdY.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
 	position: relative;
+	background-position-y: 150px;
 }
 .about-sec:before {
 	content: ' ';
