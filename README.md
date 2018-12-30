@@ -1,3 +1,4 @@
 # Hiking-and-Trekking
-a website for details regarding IIT Mandi Hiking and trekking club.
+A website for details regarding the Hiking and trekking club, IIT Mandi.
+
 
